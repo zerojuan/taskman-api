@@ -9,6 +9,8 @@ lib-cov
 
 .idea
 
+start.bat
+
 pids
 logs
 results

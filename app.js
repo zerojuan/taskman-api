@@ -7,15 +7,15 @@ var port = process.env.PORT || 8080;
 
 if(env == 'development'){
     dpd_options = {
-        port: port,
+        port: parseInt(port),
         env: 'development'
     };
 }else{
     dpd_options = {
-        port: port,
+        port: parseInt(port),
         db: {
             host: process.env.MONGO_HOST,
-            port: process.env.MONGO_PORT,
+            port: parseInt(process.env.MONGO_PORT),
             name: 'taskman-db',
             credentials: {
                 username: process.env.MONGO_USER,
