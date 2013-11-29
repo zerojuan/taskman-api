@@ -1,0 +1,14 @@
+{
+    "name": "taskman-api",
+    "version": "0.0.1",
+    "dependencies": {
+        "deployd": ""
+    },
+    "subdomain": "taskman-api",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": "~0.8.x"
+    }
+}

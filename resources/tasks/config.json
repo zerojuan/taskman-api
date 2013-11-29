@@ -1,0 +1,93 @@
+{
+	"type": "Collection",
+	"properties": {
+		"project": {
+			"name": "project",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "project",
+			"order": 0
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 1
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 2
+		},
+		"deadline": {
+			"name": "deadline",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "deadline",
+			"order": 3
+		},
+		"due": {
+			"name": "due",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "due",
+			"order": 4
+		},
+		"status": {
+			"name": "status",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "status",
+			"order": 5
+		},
+		"assignee": {
+			"name": "assignee",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "assignee",
+			"order": 6
+		},
+		"creator": {
+			"name": "creator",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "creator",
+			"order": 7
+		},
+		"activities": {
+			"name": "activities",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "activities",
+			"order": 8
+		},
+		"children": {
+			"name": "children",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "children",
+			"order": 9
+		},
+		"parent": {
+			"name": "parent",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "parent",
+			"order": 10
+		}
+	}
+}

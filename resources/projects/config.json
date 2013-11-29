@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"info": {
+			"name": "info",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "info",
+			"order": 1
+		},
+		"members": {
+			"name": "members",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "members",
+			"order": 2
+		},
+		"workspaceid": {
+			"name": "workspaceid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "workspaceid",
+			"order": 3
+		}
+	}
+}
